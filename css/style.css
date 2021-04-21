@@ -1,0 +1,76 @@
+	* {
+	    box-sizing: border-box;
+	    margin: 0;
+	    padding: 0;
+	}
+	
+	body {
+	    background-color: #000000;
+	    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23005f81' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+	    color: white;
+	    font-size: 16px;
+	    font-family: 'Oswald', sans-serif;
+	}
+	/*
+	header {
+	    padding: 30px;
+	    background-color: rgba(37, 37, 0, 0.467);
+	}
+	
+	header ul {
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	}
+	
+	header ul li h1 {
+	    font-size: 30px;
+	}
+	
+	header ul li h2 {
+	    font-size: 20px;
+	}
+	
+	header ul li img {
+	    height: 50px;
+	}*/
+	
+	a {
+	    color: white;
+	    text-decoration: none;
+	}
+	
+	ul {
+	    list-style: none;
+	}
+	
+	.nav-header {
+	    display: flex;
+	    align-items: center;
+	    background-color: rgb(66, 52, 8);
+	}
+	
+	.nav-main {
+	    width: 90%;
+	    height: 50px;
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	    border-bottom: 0;
+	}
+	
+	.nav-brand {
+	    height: 44px;
+	}
+	
+	.nav-main ul {
+	    display: flex;
+	}
+	
+	.nav-main ul li {
+	    padding: 10px;
+	}
+	
+	a:hover {
+	    color: chartreuse;
+	}
